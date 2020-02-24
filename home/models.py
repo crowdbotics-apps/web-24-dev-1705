@@ -36,3 +36,8 @@ class HomePage(models.Model):
 class Test(models.Model):
     "Generated Model"
     test = models.BigIntegerField()
+
+
+class Tes(models.Model):
+    "Generated Model"
+    vbn = models.SlugField(max_length=50, null=True, blank=True,)
